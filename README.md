@@ -1,5 +1,7 @@
 # Homework-Py-2
 
+#Пользователь вводит сумму вклада в банк и годовой процент. Найдите сумму вклада через 5 лет
+
 x = 100 #Сумма вклада
 y = 13 #Годовой процент
 
@@ -15,3 +17,9 @@ print(deposit_amount5)
 
 # deposit_amount1 = x * (1 + y / 100) ** 5
 # print(deposit_amount1)
+
+#Дано значение температуры в градусах Цельсия. Вывести температуру  в градусах Фаренгейта.
+
+Degrees_Celsius = 18
+Degrees_Fahrenheit = (Degrees_Celsius * 1.8) + 32
+print(Degrees_Fahrenheit)
